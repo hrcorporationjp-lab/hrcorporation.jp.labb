@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>コンテナ輸出・解体・ローディング代行 | H.R Corporation Co., Ltd.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo"><a href="index.html" class="logo-text">H.R Corporation Co., Ltd.</a></div>
+  <nav class="nav">
+    <ul class="nav-links">
+      <li><a href="export.html">輸出サービス</a></li>
+      <li><a href="auction.html">オークション代行</a></li>
+      <li><a href="index.html#contact">お問い合わせ</a></li>
+    </ul>
+  </nav>
+  <div class="lang-switch">
+    <button>日本語</button><button>EN</button><button>ES</button><button>اردو</button>
+  </div>
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+</header>
+
+<section class="hero parallax">
+  <div class="hero-bg" style="background-image:url('images/loading-yard.jpg');"></div>
+  <div class="hero-text animate-zoom">
+    <h1>コンテナ輸出・解体・ローディング代行</h1>
+    <p>現場力こそ、H.Rの誇り。熟練技術で安全かつ確実な輸送を実現。</p>
+  </div>
+</section>
+
+<section class="fade-section slide-up">
+  <h2>サービス概要</h2>
+  <p>車両解体からコンテナ積載、書類作成まで全工程を自社で一貫管理。ミリ単位の積載技術と経験で世界各国へ安全輸送を実現しています。</p>
+  <img src="images/container.jpg" alt="Container Loading" style="width:100%; border-radius:10px; margin-top:30px;">
+</section>
+
+<section class="fade-section contact">
+  <h2>ローディング依頼フォーム</h2>
+  <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+    <label>お名前 / Name</label>
+    <input type="text" name="name" required />
+
+    <label>メールアドレス / Email</label>
+    <input type="email" name="email" required />
+
+    <label>コンテナサイズ / Container Size</label>
+    <select name="container">
+      <option value="20ft">20ft</option>
+      <option value="40ft">40ft</option>
+    </select>
+
+    <label>車両タイプ / Vehicle Type</label>
+    <input type="text" name="vehicle" placeholder="例：SUV、トラックなど" required />
+
+    <label>必要な作業 / Required Service</label>
+    <select name="service">
+      <option value="disassembly">解体</option>
+      <option value="loading">積載</option>
+      <option value="document">輸出書類作成</option>
+    </select>
+
+    <label>メッセージ / Message</label>
+    <textarea name="message" rows="5" required></textarea>
+
+    <button type="submit">送信 / Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 H.R Corporation Co., Ltd. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

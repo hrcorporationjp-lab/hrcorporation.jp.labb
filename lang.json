@@ -1,0 +1,24 @@
+{
+  "ja": {
+    "heroTitle": "日本から世界へ。<br>信頼のその先へ。",
+    "heroText": "誠実なものづくりを世界へ。H.Rコーポレーション株式会社は、日本の技術を輸出するリーディングカンパニーです。",
+    "aboutTitle": "ブランドストーリー",
+    "aboutText1": "1987年の創業以来、日本の技術力と誠実なものづくりを軸に、世界との信頼を築いてきました。",
+    "aboutText2": "「日本の価値を必要とされる場所へ届ける」使命を胸に、38年もの間挑戦を続けています。",
+    "ceoTitle": "代表取締役社長",
+    "ceoMessage": "「私たちは、日本の技術と信頼を世界へ広げる使命を胸に、誠実に向き合っています。」",
+    "serviceTitle": "サービス",
+    "contactTitle": "お問い合わせ"
+  },
+  "en": {
+    "heroTitle": "From Japan to the World.<br>Beyond Trust.",
+    "heroText": "Delivering Japan’s craftsmanship and integrity worldwide.",
+    "aboutTitle": "Our Story",
+    "aboutText1": "Since 1987, we have built global trust through Japanese technology.",
+    "aboutText2": "We continue our mission to deliver Japan’s value wherever it’s needed.",
+    "ceoTitle": "President & CEO",
+    "ceoMessage": "“We carry Japan’s technology and trust to the world with sincerity.”",
+    "serviceTitle": "Our Services",
+    "contactTitle": "Contact Us"
+  }
+}

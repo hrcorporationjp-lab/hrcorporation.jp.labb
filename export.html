@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>世界を動かす輸出サービス | H.R Corporation Co., Ltd.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo"><a href="index.html" class="logo-text">H.R Corporation Co., Ltd.</a></div>
+  <nav class="nav">
+    <ul class="nav-links">
+      <li><a href="index.html#about">会社紹介</a></li>
+      <li><a href="auction.html">オークション代行</a></li>
+      <li><a href="loading.html">ローディング</a></li>
+      <li><a href="index.html#contact">お問い合わせ</a></li>
+    </ul>
+  </nav>
+  <div class="lang-switch">
+    <button>日本語</button><button>EN</button><button>ES</button><button>اردو</button>
+  </div>
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+</header>
+
+<section class="hero parallax">
+  <div class="hero-bg" style="background-image:url('images/container.jpg');"></div>
+  <div class="hero-text animate-zoom">
+    <h1>世界を動かす輸出サービス</h1>
+    <p>“日本の技術を、世界の舞台へ。” 自動車・エンジン・発電機など、日本の品質を世界へ届けます。</p>
+  </div>
+</section>
+
+<section class="fade-section slide-up">
+  <h2>サービス概要</h2>
+  <p>H.Rコーポレーションは、創業以来「日本の価値を世界へ」を使命に、世界中の顧客に高品質な製品を輸出してきました。</p>
+  <p>物流効率・品質管理・法規対応まで一貫してサポート。輸送工程のすべてを自社管理し、迅速・安全・確実な国際取引を実現します。</p>
+  <img src="images/warehouse.jpg" alt="Export Warehouse" style="width:100%; border-radius:10px; margin-top:30px;">
+</section>
+
+<section class="fade-section contact">
+  <h2>輸出サービスお問い合わせ</h2>
+  <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+    <label>お名前 / Name</label>
+    <input type="text" name="name" required />
+
+    <label>メールアドレス / Email</label>
+    <input type="email" name="email" required />
+
+    <label>会社名 / Company Name</label>
+    <input type="text" name="company" />
+
+    <label>製品種別 / Product Type</label>
+    <input type="text" name="product" placeholder="例：エンジン、発電機など" required />
+
+    <label>数量 / Quantity</label>
+    <input type="number" name="quantity" placeholder="例：10" required />
+
+    <label>輸出先国 / Destination Country</label>
+    <input type="text" name="country" placeholder="例：ケニア、チリなど" required />
+
+    <label>輸送方法 / Shipping Method</label>
+    <select name="shipping">
+      <option value="container">コンテナ</option>
+      <option value="roro">RORO船</option>
+      <option value="air">航空便</option>
+    </select>
+
+    <label>メッセージ / Message</label>
+    <textarea name="message" rows="5" required></textarea>
+
+    <button type="submit">送信 / Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 H.R Corporation Co., Ltd. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

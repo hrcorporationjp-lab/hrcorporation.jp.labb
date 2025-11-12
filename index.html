@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H.R Corporation Co., Ltd. | 日本から世界へ</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><span class="logo-text">H.R Corporation Co., Ltd.</span></div>
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="#about">会社紹介</a></li>
+        <li><a href="#ceo">CEO</a></li>
+        <li><a href="#services">サービス</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switch">
+      <button>日本語</button><button>EN</button><button>ES</button><button>اردو</button>
+    </div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </header>
+
+  <section class="hero parallax">
+    <div class="hero-bg" style="background-image:url('images/company-front.jpg');"></div>
+    <div class="hero-text animate-zoom">
+      <h1 data-key="heroTitle">日本から世界へ。<br>信頼のその先へ。</h1>
+      <p data-key="heroText">誠実なものづくりを世界へ。H.Rコーポレーション株式会社は、日本の技術を輸出するリーディングカンパニーです。</p>
+    </div>
+  </section>
+
+  <section id="about" class="fade-section slide-up">
+    <h2 data-key="aboutTitle">ブランドストーリー</h2>
+    <p data-key="aboutText1">1987年の創業以来、日本の技術力と誠実なものづくりを軸に、世界との信頼を築いてきました。</p>
+    <p data-key="aboutText2">「日本の価値を必要とされる場所へ届ける」使命を胸に、38年もの間挑戦を続けています。</p>
+  </section>
+
+  <section id="ceo" class="fade-section zoom-in ceo-section">
+    <img src="images/ceo.jpg" alt="CEO" class="ceo-photo">
+    <div class="ceo-text">
+      <h2 data-key="ceoTitle">代表取締役社長</h2>
+      <p data-key="ceoMessage">「私たちは、日本の技術と信頼を世界へ広げる使命を胸に、一つひとつの出会いと取引に誠実に向き合っています。」</p>
+    </div>
+  </section>
+
+  <section id="services" class="fade-section slide-left">
+    <h2 data-key="serviceTitle">サービス</h2>
+    <div class="service-grid">
+      <a href="export.html" class="service-item">
+        <h3>🌏 世界を動かす輸出サービス</h3>
+        <p>日本の品質を世界へ。物流から品質管理まで一貫対応。</p>
+      </a>
+      <a href="auction.html" class="service-item">
+        <h3>🚗 国内販売・オークション代行</h3>
+        <p>価値を見抜き最良を届ける。市場分析とスピード対応が強み。</p>
+      </a>
+      <a href="loading.html" class="service-item">
+        <h3>⚙️ コンテナ輸出・解体・ローディング代行</h3>
+        <p>現場力こそH.Rの誇り。熟練の積載技術で世界へ。</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-section slide-up contact">
+    <h2 data-key="contactTitle">お問い合わせ</h2>
+    <p>〒869-0461 熊本県宇土市網津町2874番地</p>
+    <p>電話：<a href="tel:0964426005">096-442-6005</a></p>
+    <p>メール：<a href="mailto:h.rcorporation.jp@gmail.com">h.rcorporation.jp@gmail.com</a></p>
+
+    <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+      <label>お名前 / Name</label>
+      <input type="text" name="name" required />
+      <label>メールアドレス / Email</label>
+      <input type="email" name="email" required />
+      <label>お問い合わせ内容 / Message</label>
+      <textarea name="message" rows="5" required></textarea>
+      <button type="submit">送信 / Send</button>
+    </form>
+
+    <iframe
+      src="https://www.google.com/maps?q=〒869-0461 熊本県宇土市網津町2874番地&output=embed"
+      width="100%" height="400" style="border:0; border-radius:12px;" allowfullscreen loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 H.R Corporation Co., Ltd. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

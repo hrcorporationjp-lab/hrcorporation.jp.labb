@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>国内販売・オークション代行 | H.R Corporation Co., Ltd.</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="logo"><a href="index.html" class="logo-text">H.R Corporation Co., Ltd.</a></div>
+  <nav class="nav">
+    <ul class="nav-links">
+      <li><a href="export.html">輸出サービス</a></li>
+      <li><a href="loading.html">ローディング</a></li>
+      <li><a href="index.html#contact">お問い合わせ</a></li>
+    </ul>
+  </nav>
+  <div class="lang-switch">
+    <button>日本語</button><button>EN</button><button>ES</button><button>اردو</button>
+  </div>
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+</header>
+
+<section class="hero parallax">
+  <div class="hero-bg" style="background-image:url('images/car-auction.jpg');"></div>
+  <div class="hero-text animate-zoom">
+    <h1>国内販売・オークション代行</h1>
+    <p>“価値を見抜き、最良を届ける。” 日本全国のネットワークを活かし、理想の1台をお届けします。</p>
+  </div>
+</section>
+
+<section class="fade-section slide-up">
+  <h2>サービス概要</h2>
+  <p>車両販売・買取・オークション代行を一貫して対応。市場の動きをリアルタイムで分析し、スピーディーかつ公正な取引を実現します。</p>
+  <img src="images/office.jpg" alt="Auction Office" style="width:100%; border-radius:10px; margin-top:30px;">
+</section>
+
+<section class="fade-section contact">
+  <h2>オークション注文フォーム</h2>
+  <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+    <label>お名前 / Name</label>
+    <input type="text" name="name" required />
+
+    <label>メールアドレス / Email</label>
+    <input type="email" name="email" required />
+
+    <label>車種 / Car Make</label>
+    <input type="text" name="make" placeholder="例：Toyota" required />
+
+    <label>モデル / Model</label>
+    <input type="text" name="model" placeholder="例：Corolla" required />
+
+    <label>年式 / Year</label>
+    <input type="number" name="year" placeholder="例：2020" />
+
+    <label>希望予算 / Budget (JPY)</label>
+    <input type="number" name="budget" placeholder="例：2000000" />
+
+    <label>希望オークション / Auction Site</label>
+    <select name="auction">
+      <option value="USS">USS</option>
+      <option value="TAA">TAA</option>
+      <option value="JU">JU</option>
+      <option value="その他">その他</option>
+    </select>
+
+    <label>メッセージ / Message</label>
+    <textarea name="message" rows="5" required></textarea>
+
+    <button type="submit">送信 / Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 H.R Corporation Co., Ltd. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
